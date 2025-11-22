@@ -65,6 +65,7 @@ Global Styles
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 body {
   font-family: var(--ff-secondary);
@@ -72,6 +73,7 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  border: solid red 8px
 }
 ul {
   list-style-type: none;
@@ -133,12 +135,14 @@ p {
 /* section */
 .section {
   padding: 5rem 0;
+  
 }
 
 .section-center {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
+  
 }
 @media screen and (min-width: 992px) {
   .section-center {
@@ -165,12 +169,14 @@ Counter
   width: 90vw;
   max-width: var(--fixed-width);
   padding: 2rem;
+  
 }
 .value {
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
   display: inline-block;
+  
 }
 .btn {
   text-transform: uppercase;
@@ -186,6 +192,7 @@ Counter
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
   margin: 0.5rem;
+  
 }
 .btn:hover {
   color: var(--clr-white);
