@@ -48,6 +48,7 @@ Counter.prototype.reset= function(){
 
 const firstCounter = new Counter(getElement('.first-counter'),100);
 const secondCounter = new Counter(getElement('.second-counter'),200);
+const thirdCounter = new Counter(getElement('.third-counter'),300);
         
 
 
