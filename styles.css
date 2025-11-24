@@ -169,7 +169,7 @@ Counter
   width: 90vw;
   max-width: var(--fixed-width);
   padding: 2rem;
-  border: 20px solid green;  
+  border: 20px dotted rgb(117, 218, 231);  
 }
 .value {
   font-size: 4rem;
